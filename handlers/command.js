@@ -6,7 +6,7 @@ const ascii = require("ascii-table");
 let table = new ascii("Commands");
 const functions = require("../functions")
 table.setHeading("Command", "Load status");
-console.log("Welcome to HANDLER SERVICE // By https://milrato.eu // Discord: Tomato#6966")
+console.log("Halo Owner // By Meow404")
 module.exports = (client) => {
     readdirSync("./commands/").forEach(dir => {
         const commands = readdirSync(`./commands/${dir}/`).filter(file => file.endsWith(".js"));
@@ -203,6 +203,6 @@ module.exports = (client) => {
         });
 
     console.log(table.toString());
-    console.log("Welcome to HANDLER SERVICE // By https://milrato.eu // Discord: Tomato#6966")
+    console.log("Halo Owner // By Meow404")
     console.log("Logging into Bot User...");
 }
