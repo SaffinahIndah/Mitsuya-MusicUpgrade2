@@ -1,9 +1,8 @@
-///////////////MODULES///////////////
+///////////////INI BAGIAN MODULES///////////////
 /////////////////////////////////////
 const config = require("./config.json");
 /////////////////////////////////////
-//BOT CODED BY: Tomato#6966//////////
-//DO NOT SHARE WITHOUT CREDITS!//////
+//BOT CODED BY: MEOW404//////////
 /////////////////////////////////////
 const {
     Client,
@@ -28,8 +27,7 @@ client.queue = new Map();
 client.aliases = new Collection();
 const cooldowns = new Collection();
 //audiosetups
-//BOT CODED BY: Tomato#6966
-//DO NOT SHARE WITHOUT CREDITS!
+//BOT CODED BY: MEOW404
 const https = require('https-proxy-agent');
 const proxy = 'http://123.123.123.123:8080';
 const agent = https(proxy);
@@ -57,8 +55,7 @@ client.categories = fs.readdirSync("./commands/");
     require(`./handlers/${handler}`)(client);
 });
 require("./handlers/slashcommands")(client);
-//BOT CODED BY: Tomato#6966
-//DO NOT SHARE WITHOUT CREDITS!
+//BOT CODED BY: MEOW404
 require("./handlers/setups")(client)
 const functions = require("./functions")
 //databases setups
@@ -172,8 +169,7 @@ client.login(config.token);
 
 
 
-//BOT CODED BY: Tomato#6966
-//DO NOT SHARE WITHOUT CREDITS!
+//BOT CODED BY: MEOW404
 
 process.on('unhandledRejection', (reason, p) => {
     console.log('=== unhandled Rejection ==='.toUpperCase());
@@ -185,8 +181,7 @@ process.on('uncaughtExceptionMonitor', (err, origin) => {
     console.log('=== uncaught Exception Monitor ==='.toUpperCase());
 });
 
-//BOT CODED BY: Tomato#6966
-//DO NOT SHARE WITHOUT CREDITS!
+//BOT CODED BY: MEOW404
 process.on('beforeExit', (code) => {
     console.log('=== before Exit ==='.toUpperCase());
 });
@@ -198,49 +193,4 @@ process.on('multipleResolves', (type, promise, reason) => {
 });
 
 
-//BOT CODED BY: Tomato#6966
-//DO NOT SHARE WITHOUT CREDITS!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//BOT CODED BY: Tomato#6966
-//DO NOT SHARE WITHOUT CREDITS!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//BOT CODED BY: Tomato#6966
-//DO NOT SHARE WITHOUT CREDITS!
+//BOT CODED BY: MEOW404
