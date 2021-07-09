@@ -104,7 +104,7 @@ module.exports = (client) => {
             .setColor(config.colors.yes)
             .setTitle('Help Menu - THANKS FOR INVITING ME!')
             .addField("**__BOT BY:__**", `
-                >>> <@442355791412854784> \`Tomato#6966\` [\`Website\`](https://milrato.eu) [\`INVITE\`](https://discord.com/api/oauth2/authorize?client_id=789845410998779904&permissions=8&scope=bot)
+                >>> \`MEOW404\` [\`Website\`](https://mitsuya.com)
                 `)
             .addField("**__Music - Supported sources__**", `
                 >>> \`Youtube\`, \`Soundcloud\`, [\`More\`](https://links.musicium.eu), ...
