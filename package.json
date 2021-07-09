@@ -1,8 +1,7 @@
 {
-  "name": "musicium",
+  "name": "Mitsuya Bot",
   "version": "7.0.0",
-  "description": "The Ultimate MUSIC BOT",
-  "main": "index.js",
+  "description": "Mitsuya Bot",
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
     "@ksoft/api": "^3.1.9",
@@ -33,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tomato6966/Musicium"
+    "url": "git+https://github.com/penucuriCode"
   },
   "keywords": [
     "Musicium",
@@ -61,10 +60,10 @@
     "gaming",
     "utility"
   ],
-  "author": "Tomato#6966",
+  "author": "Meow404",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Tomato6966/Musicium/issues"
+    "url": "https://github.com/penucuriCode/issues"
   },
-  "homepage": "https://github.com/Tomato6966/Musicium#readme"
+  "homepage": "https://github.com/penucuriCode"
 }
