@@ -83,7 +83,7 @@ module.exports = (client) => {
                         inline: true,
                     }, {
                         name: 'Owner and Developer',
-                        value: `**\`Tomato#6966\` <@442355791412854784>**`,
+                        value: `**\`MEOW404**`,
                         inline: true,
                     },
                 )
@@ -91,10 +91,10 @@ module.exports = (client) => {
             \u200b
             `)
                 .addField("***BOT BY:***", `
-            >>> <@442355791412854784> \`Tomato#6966\` [\`Website\`](https://musicium.eu)
+            >>> \`MEOW404\` [\`Website\`](https://mitsuya.com)
             `)
                 .addField("***SUPPORT:***", `
-            >>> [\`Server\`](https://discord.gg/fS6qBSm) | [\`Musicium - Website\`](https://musicium.eu) | [\`Invite\`](https://dc.musicium.eu/)
+            >>> [\`Server\`](https://discord.gg/magerpol) | [\`Mitsuya - Website\`](https://mitsuya.com)
             `)
             const helpembed = new Discord.MessageEmbed()
                 .setColor(config.colors.yes)
@@ -121,10 +121,10 @@ module.exports = (client) => {
                 `)
                 .addField("\u200b", "\u200b")
                 .addField("**__BOT BY:__**", `
-                >>> <@442355791412854784> \`Tomato#6966\` [\`Website\`](https://musicium.eu) [\`INVITE\`](https://dc.musicium.eu)
+                >>> \`MEOW404\` [\`Website\`](https://mitsuya.com)
                 `)
                 .addField("**__Music - Supported sources__**", `
-                >>> \`Youtube\`, \`Spotify\`, \`Soundcloud\`, [\`More\`](https://links.musicium.eu), ...
+                >>> \`Youtube\`, \`Spotify\`, \`Soundcloud\`, ...
                 `)
                 .setFooter(`To see command descriptions and usage type   ${prefix}help [CMD Name]`, client.user.displayAvatarURL())
 
